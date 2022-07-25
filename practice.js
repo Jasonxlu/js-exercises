@@ -26,3 +26,12 @@ pin.textContent = "ME TOO!"
 pinkdiv.appendChild(headin);
 pinkdiv.appendChild(pin);
 container.appendChild(pinkdiv);
+
+let fun = function alertFunction() {
+    alert("YAY! YOU DID IT!");
+  }
+
+const btn = document.querySelector('#btn');
+btn.addEventListener('click', function (e) {
+    e.target.style.background = 'blue';
+  });
